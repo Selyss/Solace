@@ -15,6 +15,8 @@ A lightweight cli text editor written in C
 - [ ] Configuration file to read from
 - [ ] Organize project into files
 - [ ] Better highlighting system (LSP?)
+- [ ] Write tests?
+- [ ] Better github action stuff
 
 # Inspiration
 I used [this guide](https://viewsourcecode.org/snaptoken/kilo/index.html) as a starting point, and am expanding off it. This project gave me a very simple program that displays text, allows for input, and moves the cursor. I hope to expand this project into something (fairly) useable that could possibly help someone somewhere if they are crazy enough to use it.
