@@ -1,0 +1,4 @@
+BasedOnStyle: Google
+Language: C
+ColumnLimit: 80
+IndentWidth: 2
