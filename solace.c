@@ -450,11 +450,9 @@ void editorUpdateRow(erow *row) {
   for (j = 0; j < row->size; j++) {
     if (row->chars[j] == '\t') {
 
-      row->render[idx++] = ' ';
       while (idx % SOLACE_TAB_STOP != 0)
         row->render[idx++] = ' ';
 
-      row->render[idx++] = ' ';
     } else {
       row->render[idx++] = row->chars[j];
     }
@@ -902,7 +900,6 @@ void editorRefreshScreen() {
            (E.rx - E.coloff) + 1);
   abAppend(&ab, buf, strlen(buf));
 
-  abAppend(&ab, "\x1b[H", 3);
   abAppend(&ab, "\x1b[?25h", 6);
 
   write(STDOUT_FILENO, ab.b, ab.len);
