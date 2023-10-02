@@ -2,3 +2,9 @@ BasedOnStyle: Google
 Language: C
 ColumnLimit: 80
 IndentWidth: 2
+TabWidth: 8
+UseCRLF: false
+UseTab: Never
+SortIncludes: true
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
