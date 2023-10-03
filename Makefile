@@ -1,2 +1,2 @@
-solace: solace.c
-	$(CC) solace.c -o solace -Wall -Wextra -pedantic -std=c99
+solace: src/main.c
+	$(CC) src/main.c -o solace -Wall -Wextra -pedantic -std=c99
