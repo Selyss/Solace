@@ -2,6 +2,7 @@
 #include "../include/ui.h"
 #include "../include/terminal.h"
 
+struct editorConfig E;
 
 void initEditor() {
   E.cx = 0;

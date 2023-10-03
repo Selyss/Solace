@@ -2,8 +2,10 @@
 #define TERMINAL_H
 
 int getWindowSize(int *rows, int *cols);
-int die(const char *s);
+void die(const char *s);
 void enableRawMode();
 void disableRawMode();
+
+void editorUpdateRow(erow *row);
 
 #endif

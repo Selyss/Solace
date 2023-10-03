@@ -1,6 +1,9 @@
-#include "../include/editor.h"
 #include "../include/highlight.h"
+#include "../include/editor.h"
 
+#include <ctype.h>
+#include <string.h>
+#include <stdlib.h>
 
 char *C_HL_extensions[] = {".c", ".h", ".cpp", NULL};
 char *C_HL_keywords[] = {

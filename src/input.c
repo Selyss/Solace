@@ -3,6 +3,8 @@
 #include "../include/ui.h"
 
 #include <unistd.h>
+#include <stdlib.h>
+#include <ctype.h>
 
 char *editorPrompt(char *prompt, void (*callback)(char *, int));
 

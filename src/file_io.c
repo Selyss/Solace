@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include <errno.h>
 #include <fcntl.h>
-
+#include <stdlib.h>
+#include <string.h>
 
 char *editorRowsToString(int *buflen) {
   int totlen = 0;

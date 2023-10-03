@@ -1,5 +1,9 @@
 #include "../include/editor.h"
 #include "../include/config.h"
+#include "../include/terminal.h"
+
+#include <stdlib.h>
+#include <string.h>
 
 int editorRowCxToRx(erow *row, int cx) {
   int rx = 0;
