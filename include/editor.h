@@ -41,9 +41,9 @@ struct editorConfig {
     struct termios orig_termios;
 };
 
-extern struct editorConfig E;
 
 void editorOpen(char *filename);
 void editorProcessKeypress();
+extern struct editorConfig E;
 
 #endif
