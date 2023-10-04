@@ -1,6 +1,11 @@
 # Solace
 A lightweight cli text editor written in C
 
+# FIX
+
+- [ ] Doesn't support UTF-8, meaning no windows terminal support
+- [ ] Compiling from Makefile is just weird
+
 # TODO
 - [ ] Line numbers
 - [ ] Soft indent

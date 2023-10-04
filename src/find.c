@@ -2,6 +2,8 @@
 #include "../include/config.h"
 #include "../include/highlight.h"
 
+#include <string.h>
+
 void editorFindCallback(char *query, int key) {
   static int last_match = -1;
   static int direction = 1;
