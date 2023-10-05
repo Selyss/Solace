@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Directories
 IDIR = include
 ODIR = obj
@@ -30,3 +31,7 @@ $(TARGET): $(OBJS)
 
 clean:
 	rm -f $(ODIR)/*.o $(TARGET)
+=======
+solace: solace.c
+	$(CC) solace.c -o solace -Wall -Wextra -pedantic -std=c99
+>>>>>>> parent of 5adf479 (broken: headers)
